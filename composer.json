@@ -1,0 +1,22 @@
+{
+    "name": "kora/database",
+    "description": "Database for Kora.",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kora\\Database\\": "src"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Database\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
