@@ -1,6 +1,6 @@
 <?php
 
-namespace Kora\Terminate;
+namespace Kora\Database;
 
 class Database
 {
