@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+    bootstrap="tests/bootstrap.php"
+    backupGlobals="false"
+    backupStaticAttributes="false"
+    verbose="true"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    processIsolation="false"
+    stopOnFailure="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">src</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="KORA_ENVIRONMENT" value="testing" />
+        <env name="HOME_URI" value="" />
+        <env name="DEBUG_LOG_PATH" value="log/debug.test.log" />
+        <env name="SERVER_LOG_PATH" value="log/server.test.log" />
+        <ini name="memory_limit" value="256M" />
+    </php>
+</phpunit>
