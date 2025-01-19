@@ -1,11 +1,6 @@
-# Exclude files and directories from being included in release archives.
-.github/                  export-ignore # GitHub-specific configuration files
-tests/                    export-ignore # Unit tests and related files
-.gitattributes            export-ignore # Git attributes file
-.gitignore                export-ignore # Git ignore rules
-phpunit.xml               export-ignore # PHPUnit configuration
-README.md                 export-ignore # Project documentation
-
-# Define custom diff behavior for specific file types.
-*.php                     diff=php # Use PHP-specific diff rules for .php files
-*.phar                    binary   # Treat .phar files as binary
+.github/                  export-ignore
+tests/                    export-ignore
+.gitattributes            export-ignore
+.gitignore                export-ignore
+phpunit.xml               export-ignore
+README.md                 export-ignore
