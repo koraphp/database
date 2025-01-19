@@ -9,19 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Database\Tests\Unit;
+namespace Kora\Database;
 
-use PHPUnit\Framework\TestCase;
-
-/**
- * @internal
- *
- * @coversNothing
- */
-class ExampleTest extends TestCase
+class Database
 {
-    public function test_example_true_is_true(): void
+    public function __construct()
     {
-        $this->assertTrue(true);
+        // class
     }
 }

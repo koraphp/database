@@ -1,21 +1,35 @@
 {
     "name": "kora/database",
-    "description": "Database for Kora.",
+    "type": "library",
+    "description": "Database for the Kora Framework.",
+    "homepage": "https://github.com/koraphp/database",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Uriel Wilson",
+            "email": "uriel@koraphp.com",
+            "homepage": "https://koraphp.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
+        "kora/debug": "dev-main",
         "symfony/var-dumper": "^5.4"
     },
     "autoload": {
         "psr-4": {
-            "Kora\\Database\\": "src"
+            "Kora\\Database\\": ""
         }
     },
-	"autoload-dev": {
-		"psr-4": {
-			"Database\\Tests\\": "tests/"
-		}
-	},
-	"config": {
+    "autoload-dev": {
+        "psr-4": {
+            "Database\\Tests\\": "tests/"
+        }
+    },
+    "config": {
         "optimize-autoloader": true,
         "sort-packages": true
     }
