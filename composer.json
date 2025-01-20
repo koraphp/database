@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "kora/debug": "dev-main",
+        "kora/debug": "^0.1",
         "symfony/var-dumper": "^5.4"
     },
     "autoload": {
