@@ -4,8 +4,6 @@
     "description": "Database for the Kora Framework.",
     "homepage": "https://github.com/koraphp/database",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Uriel Wilson",
