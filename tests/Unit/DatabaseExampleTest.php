@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @coversNothing
  */
-class ExampleTest extends TestCase
+class DatabaseExampleTest extends TestCase
 {
     public function test_example_true_is_true(): void
     {
